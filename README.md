@@ -87,3 +87,13 @@ O JWT (JSON Web Token) é um padrão de token compacto e seguro usado para auten
     secret)
 ```
 Após o login, o servidor gera um JWT e o envia ao cliente. O cliente armazena o token e, em cada requisição subsequente, envia-o no cabeçalho de autorização. O servidor então valida o token para autenticar o usuário, sem precisar manter uma sessão. Isso torna o JWT ideal para sistemas escaláveis e APIs RESTful, pois ele é autossuficiente e não exige armazenamento de estado no servidor.
+
+---
+
+
+## Referências
+
+- https://jwt.io/
+
+
+
